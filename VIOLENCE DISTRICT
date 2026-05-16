@@ -849,8 +849,6 @@ local function bindHumanoid(h)
         applyDisabledState()
     end
 end
-local root = character:FindFirstChild("HumanoidRootPart")
-if root then -- ทำงานต่อ
 
 local abilityNotifyEnabled = true
 TabMisc:CreateSection("ตรวจนักฆ่า")
